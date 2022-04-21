@@ -1,0 +1,23 @@
+{
+  "name": "takehome-for-caa",
+  "version": "1.0.0",
+  "description": "Group the active employees tagged as \"tech\" by department  and render each department name, followed by a list of the  employee names (wrapped in a mailto link) and each employee's tags (comma separated in parens).",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "lodash": "4.17.21",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
